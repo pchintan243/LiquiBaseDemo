@@ -22,4 +22,7 @@ public class LiquiBase implements Serializable {
 
     @Column(name = "description")
     private String description;
+
+    @Column(name = "demo2")
+    private String demo2;
 }
